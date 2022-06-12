@@ -1,0 +1,59 @@
+<head>
+    <!-- charset -->
+    <meta charset="utf-8">
+
+    <!-- skalowanie -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- opis i autor -->
+    <meta name="description" content="Strona domowa I LO Collegium Gostomianum w Sandomierzu.">
+    <meta name="Keywords" content="Collegium Gostomianum, Liceum Ogólnokształcące, Sandomierz, lo1, 1lo, Patkowski" />
+
+    <meta name="Robots" content="all" />
+
+    <!-- CSS: Bootstrap, Font Awesome, OWL Carousel, Animate  -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.default.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/animate.css" media="screen">
+
+    <!-- CSS: podstawowe, responsywność, temat czerwony  -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/red.css" media="screen" />
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#aa0000",
+          "text": "#ffdddd"
+        },
+        "button": {
+          "background": "#ff0000"
+        }
+      },
+      "content": {
+        "message": "Używamy plików cookie (ciasteczek), aby strony działały lepiej. Nie zbieramy żadnych danych pozwalających identyfikować użytkownika.",
+        "dismiss": "Rozumiem",
+        "link": "Więcej informacji »»»",
+        "href": "http://wszystkoociasteczkach.pl"
+      }
+    })});
+    </script>
+
+    <!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- tytuł -->
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+  </head>

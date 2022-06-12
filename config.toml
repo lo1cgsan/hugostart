@@ -1,4 +1,30 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://lo1.sandomierz.pl/cgarch'
 languageCode = 'pl-pl'
 title = 'I LO CG Archwium'
-theme = "ananke"
+theme = "lo1cgarch"
+[menu]
+  [[menu.main]]
+    name = "Archiwum"
+    identifier = "archiwum"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Działania"
+    identifier = "dzialania"
+    url = "/dzialania/"
+    weight = 2
+  [[menu.main]]
+    name = "Olimpiady"
+    identifier = "olimpiady"
+    url = "/olimpiady/"
+    weight = 3
+  [[menu.main]]
+    name = "Certyfikaty"
+    identifier = "certyfikaty"
+    url = "/certyfikaty/"
+    weight = 4
+  [[menu.main]]
+    name = "Szkoła"
+    identifier = "szkola"
+    url = "/szkola/"
+    weight = 5

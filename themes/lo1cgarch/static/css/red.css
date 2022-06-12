@@ -1,0 +1,185 @@
+a {
+    color: #ee3733;
+}
+
+.top-bar a:hover {
+	color: #ee3733;
+}
+
+a.main-button, input[type="submit"] {
+	background-color: #ee3733;
+}
+
+/*rb*/
+nav .navbar-nav > li:hover > a,
+nav .navbar-nav > li > a.active {
+	color: #ee3733;
+}
+
+.navbar-toggler {
+	border-color: #ee3733;
+}
+
+.navbar-toggler .fa.fa-bars {
+	color: #ee3733;
+}
+
+.navbar-toggler:hover {
+	border-color: #ee3733;
+	background-color: #ee3733;
+}
+.navbar-toggler:hover .fa.fa-bars {
+	color: #fff;
+}
+
+.dropdown > li:hover > a, .sup-dropdown li:hover > a {
+	color: #ee3733;
+}
+
+nav .navbar-nav > li > a:after {
+	background-color: #ee3733;
+}
+
+nav .navbar-nav > li > a.active, nav .navbar-nav > li:hover > a {
+	border-color: #ee3733;
+}
+
+ul.breadcrumbs li a:hover {
+    color: #ee3733;
+}
+
+.latest-posts-classic .left-meta-post .post-type i {
+	background-color: #ee3733;
+}
+
+.latest-posts-classic .post-title a:hover {
+	color: #ee3733;
+}
+
+.latest-posts-classic .read-more {
+	color: #ee3733;
+}
+
+.panel-title a {
+	color: #ee3733;
+}
+
+.panel-title a:hover {
+	color: #ee3733;
+}
+
+.btn-system {
+	background-color: #ee3733;
+}
+
+.btn-system.border-btn {
+	border-color: #ee3733;
+	color: #ee3733;
+}
+
+.btn-system.border-btn:hover {
+	background-color: #ee3733;
+}
+
+.btn-system.border-btn.btn-wite:hover {
+	color: #ee3733;
+}
+
+.btn-system.btn-wite{
+	color: #ee3733;
+}
+
+ul.icons-list li i {
+	color: #ee3733;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+	background-color: #ee3733;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+	color: #ee3733;
+}
+
+.classic-title span {
+	border-bottom-color: #ee3733;
+}
+
+ul.post-meta li a:hover {
+	color: #ee3733;
+}
+
+.pagination .page-item.active a.page-link {
+	border-color: #ee3733;
+	background-color: #ee3733;
+}
+
+.pagination .page-item a.page-link:hover {
+	color: #ee3733;
+}
+
+.pagination .page-item.active a.page-link:hover {
+	border-color: #ccc;
+	background-color: #eee;
+	color: #ee3733;
+}
+
+.post-tags-list a:hover {
+	background-color: #ee3733;
+}
+
+.post-share a.mail {
+	background-color: #ee3733;
+}
+
+.sidebar a:hover {
+	color: #ee3733;
+}
+
+.widget-search .search-btn {
+	background-color: #ee3733;
+}
+
+.widget.kategorie .btn-default:hover { background-color: #ee3733; color: #fff; }
+.widget.kategorie .btn-default:focus { background-color: #ee3733; color: #fff; }
+
+.sidebar .tagcloud a:hover {
+    background-color: #ee3733;
+}
+
+.back-to-top:hover i {
+    background-color: #ee3733;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background-color: #ee3733;
+}
+
+#main-slide .animated2 strong {
+    color: #ee3733;
+}
+#main-slide .animated4 strong {
+    color: #ee3733;
+}
+#main-slide .animated7 strong {
+    color: #ee3733;
+}
+
+#main-slide .carousel-control-prev i:hover,#main-slide .carousel-control-next i:hover{
+	background: #ee3733;
+}
+.slider.btn {
+    background-color: #ee3733;
+}
+
+#main-slide .carousel-indicators .active {
+    background-color: #ee3733;
+}
+
+.counter-item i {
+    color: #ee3733;
+}
+
+.footer-widgets a {
+	color: #ee3733;
+}
